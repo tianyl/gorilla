@@ -1,0 +1,24 @@
+contracts/
+.classpath
+.project
+.history/
+.idea
+.jqwik-database
+.lib/
+.worksheet
+.settings/
+# Without .classpath Eclipse creates its own project structure before reading Maven configuration including bin/
+bin/
+*.iml
+*.ipr
+*.iws
+*.log
+project/boot/
+project/plugins/project/
+project/project/
+project/*-shim.sbt
+project/target/
+target/
+openjfx/
+dependency-reduced-pom.xml
+.vscode/
